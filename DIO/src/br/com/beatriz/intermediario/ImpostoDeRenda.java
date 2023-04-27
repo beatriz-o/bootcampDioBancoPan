@@ -22,6 +22,6 @@ public class ImpostoDeRenda {
 			  imposto = ((1000 * 0.08) + (1500 * 0.18) + ((renda - 2000 - 1000 - 1500) * 0.28));
 			  System.out.println(String.format("Valor a pagar de Imposto de renda: R$ " + "%.2f", (imposto)));
 		  }
-		  
+		  leitor.close();		  
 	}
 }

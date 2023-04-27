@@ -1,6 +1,5 @@
 package br.com.beatriz.intermediario;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Quitanda {
@@ -32,7 +31,6 @@ public class Quitanda {
     	   total = (float) (total * 0.9);
        }
        System.out.println(String.format("Valor a pagar: R$" + "%.2f", (total)));
-
-      
+       input.close();      
     }
 }

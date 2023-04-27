@@ -16,5 +16,6 @@ public class DIO02 {
 	      }
 	     //TODO: Imprima a soma dos termos, considerando um resultado com duas casas decimais:
 	      System.out.print(String.format("%.0f", h)); 
+	      sc.close();
 	   }
 }

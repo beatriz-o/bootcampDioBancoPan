@@ -13,8 +13,6 @@ public class Triangulo {
 		double B = Double.parseDouble(leitor.next());
 		System.out.println("Informe o valor de C: ");
 		double C = Double.parseDouble(leitor.next());
-		double maior;
-		double soma;
 		boolean triangulo = false;
 		double area;
 		double perimetro;
@@ -23,7 +21,6 @@ public class Triangulo {
 		//Dica: Você pode utilizar o String.format() na formatação do texto.
 		if ((A > B) & (A > C)) {
 			if (((B + C) > A) & ((B - C) < A)) {
-				maior = A;
 				triangulo = true;
 				perimetro = A + B + C;
 				System.out.println("Perimetro = " + perimetro);
@@ -33,7 +30,6 @@ public class Triangulo {
 			}
 		} else if ((B > A) & (B > C)) {
 			if (((A + C) > B) & ((A - C) < B)) {
-				maior = B;
 				triangulo = true;
 				perimetro = A + B + C;
 				System.out.println("Perimetro = " + perimetro);
@@ -43,7 +39,6 @@ public class Triangulo {
 			}
 		} else if ((C > A) & (C > B)) {
 			if (((A + B) > C) & ((A - B) < C)) {
-				maior = C;
 				triangulo = true;
 				perimetro = A + B + C;
 				System.out.println("Perimetro = " + perimetro);
@@ -57,5 +52,6 @@ public class Triangulo {
 		} else {
 			System.out.println("Valores inválidos para um triângulo");
 		}
+		leitor.close();
 	}
 }

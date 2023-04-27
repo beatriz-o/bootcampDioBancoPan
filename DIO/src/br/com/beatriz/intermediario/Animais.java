@@ -69,5 +69,6 @@ public class Animais {
 			}
 		}
 		System.out.println(animal);
+		sc.close();
 	}
 }

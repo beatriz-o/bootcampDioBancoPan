@@ -1,6 +1,5 @@
 package br.com.beatriz.intermediario;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class EspacosVogais {
@@ -26,5 +25,6 @@ public class EspacosVogais {
 	    	}
 	    }
 	    System.out.println("Espacos em branco: " + espacosEmBranco + " Vogais: " + quantVogais);
+	    sc.close();
 	}
 }

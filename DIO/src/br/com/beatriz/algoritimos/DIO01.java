@@ -21,9 +21,9 @@ public class DIO01 {
 		        	}
 	        	}
 	        
-	        
 	        media = x / 6;
 	        System.out.println(cont + " valores positivos");
 	        System.out.println(String.format("%.1f", media));
+	        leitor.close();
 	    }
 }

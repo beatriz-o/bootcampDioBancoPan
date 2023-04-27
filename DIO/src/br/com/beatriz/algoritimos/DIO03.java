@@ -17,5 +17,6 @@ public class DIO03 {
         	anterior = atual; 
         	atual =  proximo; 
         }
+        leitor.close();
     }
 }
